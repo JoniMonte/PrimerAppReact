@@ -1,7 +1,8 @@
 
-import ItemListContainer from './componentes/ItemListContainer';
-import 'bootstrap/dist/css/bootstrap/css'
-import NavBoostrap from './componentes./NavBoostrap'
+import ItemListContainer from "./componentes/ItemListContainer";
+import NavReact from "./componentes/NavReact";
+import "bootstrap/dist/css/bootstrap.css"
+
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
 
     return (
         <>
-            <NavBoostrap/>
+        <NavReact/>
             <ItemListContainer saludo={saludo} greeting= 'saludo'/>
             <p>  </p>
         </>
