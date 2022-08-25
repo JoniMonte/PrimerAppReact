@@ -1,9 +1,10 @@
 import React from 'react'
 
-const CartWidget = () => {
+const CartWidget = ({ counter}) => {
   return (
       <div>
-          🛒
+          <span>🛒</span>
+          <span>{counter }</span>
     </div>
   )
 }
