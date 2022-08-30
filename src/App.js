@@ -1,18 +1,18 @@
-
-import ItemListContainer from "./componentes/ItemListContainer";
 import NavReact from "./componentes/NavReact";
 import "bootstrap/dist/css/bootstrap.css"
+import ItemListContainer from "./componentes/ItemListContainer";
+import ItemCount from "./ItemCount";
+
 
 
 
 function App() {
-    const saludo = " Hola Buenas Tardes";
 
     return (
         <>
-        <NavReact/>
-            <ItemListContainer saludo={saludo} greeting= 'saludo'/>
-            <p>  </p>
+        <NavReact />
+        <ItemListContainer greeting={"hola a todos"}/>
+        <ItemCount/>
         </>
     );
 };
