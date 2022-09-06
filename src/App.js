@@ -1,7 +1,9 @@
-import NavReact from "./componentes/NavReact";
+import "./App.css"
 import "bootstrap/dist/css/bootstrap.css"
-import ItemListContainer from "./componentes/ItemListContainer";
-import ItemCount from "./ItemCount";
+import NavReact from "./components/NavReact";
+import ItemListContainer from "./components/ItemListContainer";
+
+
 
 
 
@@ -10,9 +12,8 @@ function App() {
 
     return (
         <>
-        <NavReact />
-        <ItemListContainer greeting={"hola a todos"}/>
-        <ItemCount/>
+            <NavReact />
+            <ItemListContainer/>
         </>
     );
 };
